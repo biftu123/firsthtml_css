@@ -4,10 +4,12 @@
 		<style>
 			.imgas{
 				width: 300px;
-				
-				object-fit: cover;
+				margin-left: 20px;
+				object-fit: contain;
 				border: 2px;
 				border-color: bisque;
+				border-radius: 20px;
+				display: inline-block;
 				
 			}
 			.search{
@@ -16,17 +18,35 @@
 				font-weight: bold;
 				padding-left: 10px;
 				
-display: block;
+			vertical-align: top;
+			display: block;
 			}
-.video-reviews{
-	width: 300px;
-	margin-right: 12px;
+			
+			.video-review{
+				display: inline-block;
+			}
+			p{
+				width: 200px;
+				
+			}
+			.profile{
+				width: 50px;
+				border-radius: 50%;
+				
+			}
+			.info{
+				width: 200px;
+				display: inline-block;
+				vertical-align: top;
+				margin-top: 0px;
+			}
+			p{
+				margin-top: 0;
+			}
+.prpimg{
+	width: 50px;
 	display: inline-block;
-}
-p{
-	width: 300px;
-	margin-right: 12px;
-	
+	vertical-align: top;
 }
 		</style>
 		<title>
@@ -36,24 +56,39 @@ p{
 			
 			<input  class="search" 
 			 type="text" placeholder="search">
-			<div class="video-reviews">
-				<img    class="imgas"             src="bifas.jpg" ,>
-				<p class="video-title">
-				   Taking Tech and AI with Google CEO sundar pichai!
-				</p>
-				<P class="author">Marques Brownlee</P>
-				<p > 3.4M views &#183 6 months ago </p>
+			<div class="video-review">
+				<div><img    class="imgas"             src="bifas.jpg" ,></div>
+				<div>
+					<div class="prpimg">
+						<img class="profile" src="profile.jpg"> 
+					</div>
+					<div class="info">
+						<p class="video-title">
+							Taking Tech and AI with Google CEO sundar pichai!
+						 </p>
+						 <P>Marques Brownlee</P>
+						 <p> 3.4M views &#183 6 months ago </p>
+					</div>
+					</div>
+				
 				
    
 			</div>
-			
-			<div class="video-reviews">
-				<img    class="imgas"             src="bifas.jpg" ,>
-				<p class="video-title">
-				   Taking Tech and AI with Google CEO sundar pichai!
-				</p>
-				<P class="author">Marques Brownlee</P>
-				<p > 3.4M views &#183 6 months ago </p>
+			<div class="video-review">
+				<div><img    class="imgas"             src="bifas.jpg" ,></div>
+				<div>
+					<div class="prpimg">
+						<img class="profile" src="profile.jpg"> 
+					</div>
+					<div class="info">
+						<p class="video-title">
+							Taking Tech and AI with Google CEO sundar pichai!
+						 </p>
+						 <P>Marques Brownlee</P>
+						 <p> 3.4M views &#183 6 months ago </p>
+					</div>
+					</div>
+				
 				
    
 			</div>
