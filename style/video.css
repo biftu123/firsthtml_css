@@ -1,7 +1,7 @@
 
 			.imgas{
 				width: 250px;
-				margin-left: 20px;
+				margin-left: 50px;
 				object-fit: contain;
 				border: 2px;
 				border-color: bisque;
@@ -29,7 +29,8 @@
 	width: 50px;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 12px;
+	margin-left: 30px;
+	
 }
 .video-title{
 	font-size: 18;
@@ -56,6 +57,19 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column: 30px;
 	grid-row: 35px;
+	justify-content: space-between;
 	
-	
+}
+.bitu{
+	position: relative;
+	display: inline-block;
+}
+.time{
+	display: inline inline-block;
+position:absolute;
+bottom: 20px;
+right: 10px;
+background-color: black;
+color: white;
+
 }

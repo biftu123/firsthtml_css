@@ -1,0 +1,25 @@
+.sidebar{
+	position: fixed;
+	top: 45px;
+	left: 0;
+	bottom: 0;
+
+	width: 60px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	justify-content: center;
+	justify-items: center;
+margin-left: 5px;
+margin-left: 5px;
+}
+.sidebar-link img{
+	height: 24px; 
+	
+}
+.sidebar-link{
+	height: 75px;
+}
+.sidebar-link:hover{
+	background-color:grey ;
+}

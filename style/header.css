@@ -28,18 +28,22 @@ top: 0;
 left: 0;
 right: 0;
 justify-items: center;
-
+z-index: 100;
+}
+.bi{
+	margin-left: 10;
+	border: none;
 }
 .leftsection{
 	
 	width: 150px;
 	display: flex;
-	justify-items: center;
+	
 	
 }
 .middlesection{
 display: flex;
-justify-items: center;
+
 flex: 1;
 margin-left: 70px;
 margin-right: 30px;
@@ -58,6 +62,8 @@ max-width: 500px;
 .voice{
 	height: 40px;
 	width: 50px;
+	margin-left: 15px;
+	border: none;
 }
 .app{
 	height: 40px;
@@ -80,4 +86,16 @@ max-width: 500px;
 	border-radius: 50%;
 	margin-left: 20px;
 	right: 20px;
+}
+.notcon{
+	position: relative;
+}
+.count{
+	position: absolute;
+	top: -2px;
+	right: -2px;
+	background-color: rgb(248, 42, 42);
+	font-size: 14;
+	border-radius: 50%;
+	font-family: Arial;
 }
