@@ -1,0 +1,61 @@
+
+			.imgas{
+				width: 250px;
+				margin-left: 20px;
+				object-fit: contain;
+				border: 2px;
+				border-color: bisque;
+				
+				display: inline-block;
+				
+			}
+			
+			
+			
+			.profile{
+				width: 50px;
+				border-radius: 50%;
+				
+			}
+			.info{
+				width: 200px;
+				display: inline-block;
+				vertical-align: top;
+				margin-top: 0px;
+				
+			}
+			
+.prpimg{
+	width: 50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 12px;
+}
+.video-title{
+	font-size: 18;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial;
+}
+.auth{
+	font-size: 14;
+	color: grey;
+	font-family: Arial;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.view{
+	font-size: 14;
+	color: grey;
+	font-family: Arial;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.video-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column: 30px;
+	grid-row: 35px;
+	
+	
+}
